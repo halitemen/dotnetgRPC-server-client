@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "dotnetgRPC.Protos";
+
+package Sensor;
+
+service SensorService {
+  rpc SendInformation (SendInformationRequest) returns (stream SendInformationReply);
+}
+
+message SendInformationRequest {
+
+}
+
+message SendInformationReply {
+	string mac =1;
+	string batterylevel =2;
+}

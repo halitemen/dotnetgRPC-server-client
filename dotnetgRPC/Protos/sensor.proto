@@ -8,6 +8,7 @@ package Sensor;
 service SensorService {
   // Sends a greeting
   rpc Sensor (SensorDataRequest) returns (SensorDataReply);
+  rpc SendInformation (SendInformationRequest) returns (stream SendInformationReply);
 }
 
 // The request message containing the user's name.
@@ -18,4 +19,13 @@ message SensorDataRequest {
 // The response message containing the greetings.
 message SensorDataReply {
   string rawData = 1;
+}
+
+message SendInformationRequest {
+
+}
+
+message SendInformationReply {
+	string mac =1;
+	string batterylevel =2;
 }
