@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetgRPC", "dotnetgRPC\dotnetgRPC.csproj", "{BB2DE6F5-F574-4352-A34E-DBDFA0E41200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetgRPC.Client", "dotnetgRPC.Client\dotnetgRPC.Client.csproj", "{DADAF8CE-7A89-4BAC-9EF4-752954FEE5CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB2DE6F5-F574-4352-A34E-DBDFA0E41200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2DE6F5-F574-4352-A34E-DBDFA0E41200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2DE6F5-F574-4352-A34E-DBDFA0E41200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2DE6F5-F574-4352-A34E-DBDFA0E41200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DADAF8CE-7A89-4BAC-9EF4-752954FEE5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADAF8CE-7A89-4BAC-9EF4-752954FEE5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADAF8CE-7A89-4BAC-9EF4-752954FEE5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADAF8CE-7A89-4BAC-9EF4-752954FEE5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C8C28B3-9879-4E4F-8D87-238AAB18A124}
+	EndGlobalSection
+EndGlobal

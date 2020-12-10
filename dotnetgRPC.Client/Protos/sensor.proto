@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "dotnetgRPC.Protos";
+
+package Sensor;
+
+service SensorService {
+  rpc Sensor (SensorDataRequest) returns (SensorDataReply){}
+}
+
+message SensorDataRequest {
+  string mac = 1;
+}
+
+message SensorDataReply {
+  string rawData = 1;
+}
